@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#playlist {
+    width: 80%;
+    left: 10%;
+    top: 10px;
+    position: absolute;
+    border: 1px solid #cddc39;
+}
+
+h3.playlist-title {
+    text-align: center;
+    background: #cddc39;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.playlist-items {
+    list-style: none;
+}
+.playlist-items > li {
+    display: block;
+    border-bottom: 1px solid rgba(177, 177, 177, 0.17);
+    padding: 8px;
+}
+.playlist-meta {
+    background: #00bcd4;
+    text-align: center;
+    font-size: .7em;
+    border-radius: 3px;
+    padding: 3px;
+}
